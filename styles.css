@@ -36,7 +36,6 @@ li a{
 
 li a:hover{
     text-decoration: underline;
-    transition: 3ms ease;
 }
 
 li{
