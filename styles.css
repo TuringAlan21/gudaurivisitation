@@ -34,10 +34,19 @@ li a{
     /* text-align: center; */
 }
 
-li a:hover{
-    text-decoration: underline;
+li a::after{
+content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;  /* Underline thickness */
+  background-color: black;  /* Underline color */
+  transition: width 0.3s ease;  /* Smooth transition for width */
 }
-
+li a:hover::after{
+    width: 100%;
+}
 li{
     list-style: none;
 }
