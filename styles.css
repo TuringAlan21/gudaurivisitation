@@ -140,6 +140,7 @@ image{
 
     li {
         display: inline-block;
+        list-style: none;
     }
     #bordered{
         border: none;
