@@ -73,9 +73,10 @@ h3{
     text-decoration: none; /* Keeps the link styled as a hyperlink */
     color: blue; /* Ensures the color matches surrounding text */
     line-height: normal; /* Matches the line height of the surrounding text */
-    vertical-align: baseline; 
+    vertical-align: baseline;
+    cursor: pointer;
 }
-button{
+#view-options, #about{
     width: 20%;
     align-self: center;
     margin: 5px;
@@ -87,6 +88,9 @@ button{
     font-weight: 900;
     padding: 10px 20px;
     width: 100%;
+    text-align:center;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 .lower-buttons{
@@ -95,6 +99,7 @@ button{
     width: 50%;
     margin-top: -100px;
 }
+
 #view-options:hover, #about:hover{
     background-color: snow;
     cursor: pointer;
@@ -114,8 +119,9 @@ image{
     transition: transform 3s ease;
 }
 .fa-solid{
-    background-color: white;
+    color: white;
 }
+
 
 
 @media (min-width:768px) {
