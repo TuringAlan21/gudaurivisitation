@@ -113,6 +113,9 @@ button{
 image{
     transition: transform 3s ease;
 }
+.fa-solid{
+    background-color: white;
+}
 
 
 @media (min-width:768px) {
